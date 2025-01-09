@@ -1,0 +1,44 @@
+name: ass
+help: 👷 A helpful commandline assistent.
+version: 0.0.0
+
+commands:
+- name: personal-knowledge-database
+  alias: pkd
+  help: Manage the personal knowledge database
+  commands:
+  - name: area-of-focus
+    alias: aof
+    help: Manage areas of focus
+    commands:
+    - name: list
+      alias: ls
+      help: List all areas of focus
+      environment_variables:
+      - name: PKD_DIR
+        help: &pkddir_help Location of the personal knowledge database
+        required: false
+        default: &pkddir_default $HOME/pkd
+      - name: AREAS_SUBDIR
+        help: &areassubdir_help Relative location of the area directory
+        required: false
+        default: &areassubdir_default 3_Areas
+      flags:
+      - long: --pkd-dir
+        short: -d
+        arg: dir
+        help: *pkddir_help
+        required: false
+      - long: --areas-subdir
+        short: -a
+        arg: dir
+        help: *areassubdir_help
+        required: false
+      - &verbose_flag long: --verbose
+        short: -v
+        repeatable: true
+        help: Set the verbosity level
+      dependencies:
+      - gum
+      - fdfind
+    

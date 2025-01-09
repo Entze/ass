@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Run this from the root directory
+
+source ./test/approvals.bash
+
+# Update me
+cli=./ass
+
+approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
