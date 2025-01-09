@@ -7,9 +7,17 @@
         "pkg-path": "bashly",
         "version": "1.2.6"
       },
+      "gnumake": {
+        "pkg-path": "gnumake",
+        "version": "4.4.1"
+      },
       "gum": {
         "pkg-path": "gum",
         "version": "0.14.5"
+      },
+      "just": {
+        "pkg-path": "just",
+        "version": "1.38.0"
       }
     },
     "hook": {},
@@ -149,6 +157,140 @@
       "priority": 5
     },
     {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/wm2vndzq7rv5xf5nfv4rhvsi1qnjmrk7-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/8677qdd03vfyb4zl9jqa1l3gf5nn42l0-gnumake-4.4.1-info",
+        "man": "/nix/store/8ndq9xqci1861y6fb97xgm90qxq3m9lj-gnumake-4.4.1-man",
+        "out": "/nix/store/kz7hhivh19j3fswz9i5knbq3xwsy7sp5-gnumake-4.4.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/zir2qbcs5di3nph357a1g8vyjs8fy6rw-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "debug": "/nix/store/gfsbcjrv2lxgipzsn3a65flqll44ihis-gnumake-4.4.1-debug",
+        "info": "/nix/store/hnkqb83x19qv9hwa8l5vkvv2y21yps32-gnumake-4.4.1-info",
+        "man": "/nix/store/rim19s0wcffh71ma2bgm0hifpr71p3dz-gnumake-4.4.1-man",
+        "out": "/nix/store/vdn3rar5zcrg0mh406h4abq3w2d12hy2-gnumake-4.4.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/rw7ky951qicqxr9maazhk9pbv2gr7yac-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/a0k03x1jwp180cwppi1yqd8h535p5ck6-gnumake-4.4.1-info",
+        "man": "/nix/store/mfcp0r854jpqn1vckhycabla9mwzfsff-gnumake-4.4.1-man",
+        "out": "/nix/store/i68j153lqxkvyhflqip2lqxy9zqsf6k2-gnumake-4.4.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/cps3vhvvfbk1kcwd46mzf2jn3fcgjlcm-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "debug": "/nix/store/6vzw9g0p9n5467agw5z4l68xbwpzr79x-gnumake-4.4.1-debug",
+        "info": "/nix/store/1cw85sbjpl43k7qdwhpcmz63rq0f54jc-gnumake-4.4.1-info",
+        "man": "/nix/store/4dwhf5vn36rxg6xk98qsswyhvzywqdh9-gnumake-4.4.1-man",
+        "out": "/nix/store/nmj7y4f9zkbzsb51wbnbf2yksa4ncprj-gnumake-4.4.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
       "attr_path": "gum",
       "broken": false,
       "derivation": "/nix/store/saqsc2cnrj5kdswscdl8f7za5pjh29f7-gum-0.14.5.drv",
@@ -263,6 +405,138 @@
       ],
       "outputs": {
         "out": "/nix/store/z96hiw9h45mph9qilm4hp4j4ncf19qbl-gum-0.14.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/45d9w0p3c206mdrymlk9rrhl7rra5cy8-just-1.38.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "just-1.38.0",
+      "pname": "just",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.38.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ys7i8a3y8x0wpvpgjm1cg32vcmkvghaq-just-1.38.0-doc",
+        "man": "/nix/store/4v2f2ilb558wldh4wl5iplhbqbwcs8x7-just-1.38.0-man",
+        "out": "/nix/store/vsh8l0h4w2s2chhxnq3crggnqgajv8fr-just-1.38.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/vqz0fxiv5r4pvfkvf1l1bqz2xc3kicfr-just-1.38.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "just-1.38.0",
+      "pname": "just",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.38.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/wdvhp7n1ll2r94bp1wq0nw9d7jsy9h5r-just-1.38.0-doc",
+        "man": "/nix/store/b402yzxcpdldqafh9lh1vz10pifyyrm1-just-1.38.0-man",
+        "out": "/nix/store/v9c5rvb1f5351vnfqw1dwrqnyr0zmwkl-just-1.38.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/9db93z9yzr862q61vjyq5r0mx74jirwr-just-1.38.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "just-1.38.0",
+      "pname": "just",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.38.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/1z00n6g7id3z5x4wgmxnpp0www1r9ah6-just-1.38.0-doc",
+        "man": "/nix/store/g72x3fkmf25sa8gc3sh17wm2s14vk1zi-just-1.38.0-man",
+        "out": "/nix/store/nrwx6y35zjj83shb7vj6nxl5a7ll7jfq-just-1.38.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/b2b4gdys6f07896qj4b5npjl0m2pmkzh-just-1.38.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "just-1.38.0",
+      "pname": "just",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.38.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/lxn266hlm8ngl6r0bkz9bdc2g5iskqby-just-1.38.0-doc",
+        "man": "/nix/store/kh82ps1zp22cv36l4w1r7pzv1rbzpmjz-just-1.38.0-man",
+        "out": "/nix/store/8gfn54vq7r96i0jpdgbz4084b4n5if61-just-1.38.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
