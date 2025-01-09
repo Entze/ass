@@ -1,0 +1,272 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "bashly": {
+        "pkg-path": "bashly",
+        "version": "1.2.6"
+      },
+      "gum": {
+        "pkg-path": "gum",
+        "version": "0.14.5"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "bashly",
+      "broken": false,
+      "derivation": "/nix/store/i9wax049glghahfrzmqqa57113y50qib-bashly-1.2.6.drv",
+      "description": "Bash command line framework and CLI generator",
+      "install_id": "bashly",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "bashly-1.2.6",
+      "pname": "bashly",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/n431c2nabivqmjv6mdlx0vz51c0si7h2-bashly-1.2.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bashly",
+      "broken": false,
+      "derivation": "/nix/store/h5rq81f37higxrh33y62v8sm18xxrxrr-bashly-1.2.6.drv",
+      "description": "Bash command line framework and CLI generator",
+      "install_id": "bashly",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "bashly-1.2.6",
+      "pname": "bashly",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0r9ahrxfm10jzw9rf9a5zn1plwfinzr5-bashly-1.2.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bashly",
+      "broken": false,
+      "derivation": "/nix/store/k4l5rk5haqad2h8yjvjklxmqdm5r0klx-bashly-1.2.6.drv",
+      "description": "Bash command line framework and CLI generator",
+      "install_id": "bashly",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "bashly-1.2.6",
+      "pname": "bashly",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/644d2mxpj50lmwc7d30bj9j4453i5bhr-bashly-1.2.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bashly",
+      "broken": false,
+      "derivation": "/nix/store/0z48xdkbg6fkklxi91q0lywzfsr3xwsr-bashly-1.2.6.drv",
+      "description": "Bash command line framework and CLI generator",
+      "install_id": "bashly",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "bashly-1.2.6",
+      "pname": "bashly",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3x2lz09dq5d2s1k3b2im7jjck9nm0584-bashly-1.2.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/saqsc2cnrj5kdswscdl8f7za5pjh29f7-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p87f1zvabjckkam5f8p5n8s0p9dy2z8d-gum-0.14.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/gq0x16il396knlmncdmljqrgxmqj5vlx-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i8ks7qinadmk77dmknnrpi4iczv8p8gj-gum-0.14.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/p9hjn7115d3ks9nd96zc5zj8wbfvm932-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1s4jc1kmqksngyhanl76iibb19b7sd2v-gum-0.14.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/xbrn20zfhm8w5cgjjzjcyv67g5k6kbdl-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "8f3e1f807051e32d8c95cd12b9b421623850a34d",
+      "rev_count": 733374,
+      "rev_date": "2025-01-04T17:41:09Z",
+      "scrape_date": "2025-01-06T21:17:53Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/z96hiw9h45mph9qilm4hp4j4ncf19qbl-gum-0.14.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
