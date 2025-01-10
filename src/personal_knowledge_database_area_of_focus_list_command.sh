@@ -7,4 +7,4 @@ if [[ $verbosity -ge 1 ]]; then
 fi
 
 # List all directories at level 1 of $pkd/$areas, only show the basename, then sort
-fdfind --search-path "${pkd}/${areas}" --exact-depth 1 --type directory --exec printf "%s\n" {/} | sort
+fdfind --search-path "${pkd}/${areas}" --exact-depth 1 --type directory --exec printf "%s\n" "{/}" | sort
