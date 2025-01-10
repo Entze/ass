@@ -6,3 +6,6 @@ build:
 
 test:
     ./test/approve
+
+lint +TARGET="src/*_command.sh":
+    shellcheck -s bash {{TARGET}}

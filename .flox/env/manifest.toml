@@ -23,6 +23,8 @@ just.pkg-path = "just"
 just.version = "1.38.0"
 gnumake.pkg-path = "gnumake"
 gnumake.version = "4.4.1"
+shellcheck.pkg-path = "shellcheck"
+shellcheck.version = "0.10.0"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
