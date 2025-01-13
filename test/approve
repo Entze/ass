@@ -7,3 +7,4 @@ source ./test/approvals.bash
 cli=./ass
 
 approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
+approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"
