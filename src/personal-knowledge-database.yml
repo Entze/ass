@@ -1,0 +1,6 @@
+name: personal-knowledge-database
+alias: pkd
+help: Manage the personal knowledge database
+commands:
+  - import: src/personal-knowledge-database/project.yml
+  - import: src/personal-knowledge-database/area-of-focus.yml

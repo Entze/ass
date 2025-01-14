@@ -1,0 +1,10 @@
+ass personal-knowledge-database project - Manage projects
+
+Alias: proj
+
+Usage:
+  ass personal-knowledge-database project COMMAND
+  ass personal-knowledge-database project [COMMAND] --help | -h
+
+Commands:
+  list   List all projects

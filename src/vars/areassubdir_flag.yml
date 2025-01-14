@@ -1,0 +1,5 @@
+long: --areas-subdir
+short: -a
+arg: dir
+required: false
+import: src/vars/areassubdir_common.yml

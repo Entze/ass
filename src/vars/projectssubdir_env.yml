@@ -1,0 +1,4 @@
+name: PROJECTS_SUBDIR
+required: false
+default: 2_Projects
+import: src/vars/projectssubdir_common.yml

@@ -1,0 +1,4 @@
+long: --verbose
+short: -v
+repeatable: true
+help: Set the verbosity level

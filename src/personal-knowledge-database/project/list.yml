@@ -1,0 +1,15 @@
+name: list
+alias: ls
+help: List all projects
+environment_variables:
+- import: src/vars/pkddir_env.yml
+- import: src/vars/projectssubdir_env.yml
+flags:
+- import: src/vars/pkddir_flag.yml
+- import: src/vars/projectssubdir_flag.yml
+- import: src/vars/verbose_flag.yml   
+dependencies:
+- gum
+- fdfind
+- yq
+- rg

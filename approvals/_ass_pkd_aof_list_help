@@ -1,0 +1,29 @@
+ass personal-knowledge-database area-of-focus list - List all areas of focus
+
+Alias: ls
+
+Usage:
+  ass personal-knowledge-database area-of-focus list [OPTIONS]
+  ass personal-knowledge-database area-of-focus list --help | -h
+
+Options:
+  --pkd-dir, -d DIR
+    Location of the personal knowledge database
+
+  --areas-subdir, -a DIR
+    Relative location of the area directory
+
+  --verbose, -v (repeatable)
+    Set the verbosity level
+
+  --help, -h
+    Show this help
+
+Environment Variables:
+  PKD_DIR
+    Location of the personal knowledge database
+    Default: /home/lgrassauer/pkd
+
+  AREAS_SUBDIR
+    Relative location of the area directory
+    Default: 3_Areas

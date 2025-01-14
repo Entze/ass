@@ -1,0 +1,16 @@
+ass - 👷 A helpful commandline assistent.
+
+Usage:
+  ass COMMAND
+  ass [COMMAND] --help | -h
+  ass --version | -v
+
+Commands:
+  personal-knowledge-database   Manage the personal knowledge database
+
+Options:
+  --help, -h
+    Show this help
+
+  --version, -v
+    Show version number

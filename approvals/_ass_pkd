@@ -1,0 +1,11 @@
+ass personal-knowledge-database - Manage the personal knowledge database
+
+Alias: pkd
+
+Usage:
+  ass personal-knowledge-database COMMAND
+  ass personal-knowledge-database [COMMAND] --help | -h
+
+Commands:
+  project         Manage projects
+  area-of-focus   Manage areas of focus

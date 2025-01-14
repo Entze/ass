@@ -1,0 +1,4 @@
+name: PKD_DIR
+default: $HOME/pkd
+required: false
+import: src/vars/pkddir_common.yml

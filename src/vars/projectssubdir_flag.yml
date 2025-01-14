@@ -1,0 +1,5 @@
+long: --projects-subdir
+short: -p
+arg: dir
+required: false
+import: src/vars/projectssubdir_common.yml

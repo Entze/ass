@@ -1,0 +1,4 @@
+name: AREAS_SUBDIR
+required: false
+default: 3_Areas
+import: src/vars/areassubdir_common.yml

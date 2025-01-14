@@ -1,0 +1,14 @@
+ass personal-knowledge-database area-of-focus - Manage areas of focus
+
+Alias: aof
+
+Usage:
+  ass personal-knowledge-database area-of-focus COMMAND
+  ass personal-knowledge-database area-of-focus [COMMAND] --help | -h
+
+Commands:
+  list   List all areas of focus
+
+Options:
+  --help, -h
+    Show this help

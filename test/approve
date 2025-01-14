@@ -3,8 +3,27 @@
 
 source ./test/approvals.bash
 
-# Update me
 cli=./ass
+
+# Helps
+
+approve "$cli"
+approve "$cli --help"
+
+approve "$cli pkd"
+approve "$cli pkd --help"
+
+approve "$cli pkd aof"
+approve "$cli pkd aof --help"
+
+approve "$cli pkd aof list --help"
+
+approve "$cli pkd proj"
+approve "$cli pkd proj --help"
+
+approve "$cli pkd proj list --help"
+
+approve "$cli --version"
 
 approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
 approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"

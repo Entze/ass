@@ -1,0 +1,5 @@
+long: --pkd-dir
+short: -d
+arg: dir
+required: false
+import: src/vars/pkddir_common.yml

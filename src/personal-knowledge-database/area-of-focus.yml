@@ -1,0 +1,5 @@
+  name: area-of-focus
+  alias: aof
+  help: Manage areas of focus
+  commands:
+    - import: src/personal-knowledge-database/area-of-focus/list.yml

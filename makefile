@@ -1,4 +1,4 @@
-DEPS := $(wildcard src/*_command.sh) $(wildcard lib/*)
+DEPS := $(wildcard src/*_command.sh) $(wildcard lib/*) $(wildcard src/*.yml) $(wildcard src/**/*.yml)
 
-ass: $(DEPS)
+ass: settings.yml $(DEPS)
 	bashly generate
