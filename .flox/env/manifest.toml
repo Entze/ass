@@ -25,6 +25,8 @@ gnumake.pkg-path = "gnumake"
 gnumake.version = "4.4.1"
 shellcheck.pkg-path = "shellcheck"
 shellcheck.version = "0.10.0"
+yamllint.pkg-path = "yamllint"
+yamllint.version = "python3.12-yamllint-1.35.1"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
