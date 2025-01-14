@@ -2,4 +2,4 @@ name: project
 alias: proj
 help: Manage projects
 commands:
-- import: src/personal-knowledge-database/project/list.yml
+  - import: src/personal-knowledge-database/project/list.yml

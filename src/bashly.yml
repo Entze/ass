@@ -1,6 +1,5 @@
 name: ass
-help: 👷 A helpful commandline assistent.
+help: "\U0001F477 A helpful commandline assistent."
 version: 0.0.0
-
 commands:
-- import: src/personal-knowledge-database.yml
+  - import: src/personal-knowledge-database.yml

@@ -2,12 +2,12 @@ name: list
 alias: ls
 help: List all areas of focus
 environment_variables:
-- import: src/vars/pkddir_env.yml
-- import: src/vars/areassubdir_env.yml
+  - import: src/vars/pkddir_env.yml
+  - import: src/vars/areassubdir_env.yml
 flags:
-- import: src/vars/pkddir_flag.yml
-- import: src/vars/areassubdir_flag.yml
-- import: src/vars/verbose_flag.yml
+  - import: src/vars/pkddir_flag.yml
+  - import: src/vars/areassubdir_flag.yml
+  - import: src/vars/verbose_flag.yml
 dependencies:
-- gum
-- fdfind
+  - gum
+  - fdfind

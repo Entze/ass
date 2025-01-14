@@ -9,4 +9,6 @@ fi
 export -f get_title
 
 # List level 1 heading's or titles of markdown files that start with +
+# Disable SC2016, because we don't need expansion of expressions.
+# shellcheck disable=SC2016
 fdfind --search-path "${pkd}/${projects}" --type file --extension md --exec bash -c 'get_title "$0" "$1"' "{}" "$verbosity" | sort
