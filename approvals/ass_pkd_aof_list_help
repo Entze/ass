@@ -8,7 +8,7 @@ Usage:
 
 Options:
   --pkd-dir, -d DIR
-    Location of the personal knowledge database
+    Location of the personal knowledge database directory
 
   --areas-subdir, -a DIR
     Relative location of the area directory
@@ -21,7 +21,7 @@ Options:
 
 Environment Variables:
   PKD_DIR
-    Location of the personal knowledge database
+    Location of the personal knowledge database directory
     Default: /home/lgrassauer/pkd
 
   AREAS_SUBDIR

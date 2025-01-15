@@ -8,7 +8,7 @@ Usage:
 
 Options:
   --pkd-dir, -d DIR
-    Location of the personal knowledge database
+    Location of the personal knowledge database directory
 
   --projects-subdir, -p DIR
     Relative location of the projects directory
@@ -21,7 +21,7 @@ Options:
 
 Environment Variables:
   PKD_DIR
-    Location of the personal knowledge database
+    Location of the personal knowledge database directory
     Default: /home/lgrassauer/pkd
 
   PROJECTS_SUBDIR

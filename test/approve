@@ -3,10 +3,13 @@
 
 source ./test/approvals.bash
 
-cli=./ass
+export PATH=.:$PATH
+
+cli=ass
 
 # Helps
 
+describe "Help texts"
 approve "$cli"
 approve "$cli --help"
 
@@ -25,5 +28,8 @@ approve "$cli pkd proj list --help"
 
 approve "$cli --version"
 
+describe "pkd aof"
 approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
+
+describe "pkd proj"
 approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"
