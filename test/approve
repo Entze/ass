@@ -33,3 +33,16 @@ approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
 
 describe "pkd proj"
 approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"
+
+describe "todo append"
+context "when appending 'Append test' to /tmp/ass_todo_append/todo.txt"
+if [ -d "/tmp/ass_todo_append/" ];then
+  rm -r "/tmp/ass_todo_append"
+fi
+
+mkdir /tmp/ass_todo_append
+cp test/resources/todo/* /tmp/ass_todo_append/.
+
+$cli todo append --todotxt-file /tmp/ass_todo_append/todo.txt "Append test"
+approve "cat /tmp/ass_todo_append/todo.txt"
+

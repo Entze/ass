@@ -3,3 +3,23 @@ help: "\U0001F477 A helpful commandline assistent."
 version: 0.0.0
 commands:
   - import: src/personal-knowledge-database.yml
+  - name: "todo"
+    help: "Manage todo.txt"
+    commands:
+      - name: append
+        help: "Append string to the todo.txt file"
+        args:
+          - name: text
+        environment_variables:
+          - name: TODOTXT_FILE
+            default: $HOME/todo/todo.txt
+            required: false
+            help: The location of the todo.txt file
+        flags:
+          - long: --todotxt-file
+            short: -f
+            arg: file
+            required: false
+            validate: file_exists
+            help: The location of the todo.txt file
+          - import: src/vars/verbose_flag.yml

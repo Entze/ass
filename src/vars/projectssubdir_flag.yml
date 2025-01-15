@@ -2,4 +2,5 @@ long: --projects-subdir
 short: -p
 arg: dir
 required: false
+validate: dir_exists
 import: src/vars/projectssubdir_common.yml
