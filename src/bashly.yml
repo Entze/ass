@@ -3,11 +3,11 @@ help: "\U0001F477 A helpful commandline assistent."
 version: 0.0.0
 commands:
   - import: src/personal-knowledge-database.yml
-  - name: "todo"
-    help: "Manage todo.txt"
+  - name: todo
+    help: Manage todo.txt
     commands:
       - name: append
-        help: "Append string to the todo.txt file"
+        help: Append string to the todo.txt file
         args:
           - name: text
         environment_variables:

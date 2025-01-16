@@ -7,8 +7,6 @@ export PATH=.:$PATH
 
 cli=ass
 
-# Helps
-
 describe "Help texts"
 approve "$cli"
 approve "$cli --help"
@@ -35,14 +33,23 @@ describe "pkd proj"
 approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"
 
 describe "todo append"
-context "when appending 'Append test' to /tmp/ass_todo_append/todo.txt"
-if [ -d "/tmp/ass_todo_append/" ];then
-  rm -r "/tmp/ass_todo_append"
-fi
+it "can append 'Append test'"
 
-mkdir /tmp/ass_todo_append
-cp test/resources/todo/* /tmp/ass_todo_append/.
+testtodo="$(mktemp --directory --tmpdir='/tmp' 'ass_todo_append.XXXX')"
+cp test/resources/todo/* "$testtodo/."
 
-$cli todo append --todotxt-file /tmp/ass_todo_append/todo.txt "Append test"
-approve "cat /tmp/ass_todo_append/todo.txt"
+$cli todo append --todotxt-file "$testtodo/todo.txt" "Append test"
+approve "cat $testtodo/todo.txt" "ass_todo_append"
+
+describe "todo delete"
+it "can delete the 1st entry"
+
+testtodo="$(mktemp --directory --tmpdir='/tmp' 'ass_todo_delete.XXXX')"
+cp test/resources/todo/* "$testtodo/."
+
+$cli todo delete --todotxt-file "$testtodo/todo.txt" 1
+approve "cat $testtodo/todo.txt" "ass_todo_delete_1"
+
+it "cannot delete a line that doesn't exist"
+approve "$cli todo delete --todotxt-file /tmp/ass_todo_delete/todo.txt 10000" "ass_todo_delete_non_existent"
 

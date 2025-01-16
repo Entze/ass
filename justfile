@@ -7,12 +7,14 @@ build:
 test:
     ./test/approve
 
-lint: lint-shell lint-yaml
+lint:
+    fdfind --type file --extension sh --exclude .flox --exclude .git --exec just lint-shell "{}"
+    fdfind --type file --extension yml --extension yaml --exclude .flox --exclude .git --exec just lint-yaml "{}"
 
-lint-shell +TARGET="src/*_command.sh":
+lint-shell +TARGET:
     shellcheck -s bash {{TARGET}}
 
-lint-yaml +TARGET=".":
+lint-yaml +TARGET:
     yamllint {{TARGET}}
 
 alias fmt := format
