@@ -2,8 +2,13 @@ pkd="${args[--pkd-dir]:-$PKD_DIR}"
 projects="${args[--projects-subdir]:-$PROJECTS_SUBDIR}"
 verbosity="${args[--verbose]:-0}"
 
-if [[ "$verbosity" -ge 1 ]]; then
-  gum log --structured --level "debug" -- "personal knowledge database project list: Parsing input" "PKD_DIR" "$PKD_DIR" "--pkd-dir" "${args[--pkd-dir]}" "pkd" "$pkd" "PROJECTS_SUBDIR" "$PROJECTS_SUBDIR" "--projects-subdir" "${args[--projects-subdir]}" "projects" "$projects" "--verbose" "${args[--verbose]}" "verbosity" "$verbosity"
+if [ "$verbosity" -ge 1 ]; then
+  gum log --structured --level "debug" -- "personal-knowledge-database project list: Parsing input" "PKD_DIR" "$PKD_DIR" "--pkd-dir" "${args[--pkd-dir]}" "pkd" "$pkd" "PROJECTS_SUBDIR" "$PROJECTS_SUBDIR" "--projects-subdir" "${args[--projects-subdir]}" "projects" "$projects" "--verbose" "${args[--verbose]}" "verbosity" "$verbosity"
+fi
+
+if ! [ -d "$pkd/$projects" ]; then
+  gum log --structured --level "error" -- "personal-knowledge-database project list: pkd/projects is not a directory" "pkd" "$pkd" "projects" "$projects"
+  exit 1
 fi
 
 export -f get_title

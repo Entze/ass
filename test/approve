@@ -32,19 +32,50 @@ approve "$cli todo append --help"
 approve "$cli --version"
 
 describe "pkd aof"
-approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'"
+it "can list the areas-of-focus"
+export PKD_DIR=$(readlink --canonicalize 'test/resources/pkd')
+approve "$cli pkd aof ls" "ass_pkd_aof_ls_env"
+unset PKD_DIR
+approve "$cli pkd aof ls --pkd-dir='test/resources/pkd'" "ass_pkd_aof_ls_flag"
+
+it "exits early on nonexisting PKD or AREAS"
+export PKD_DIR="does/not/exist"
+approve "$cli pkd aof ls" "ass_pkd_aof_ls_env_nonexisting"
+unset PKD_DIR
+approve "$cli pkd aof ls --pkd-dir='does/not/exist'" "ass_pkd_aof_ls_flag_nonexisting"
 
 describe "pkd proj"
-approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'"
+it "can list the projects"
+export PKD_DIR=$(readlink --canonicalize 'test/resources/pkd')
+approve "$cli pkd proj ls" "ass_pkd_proj_ls_env"
+unset PKD_DIR
+approve "$cli pkd proj ls --pkd-dir='test/resources/pkd'" "ass_pkd_proj_ls_flag"
+
+it "exits early on nonexisting PKD or PROJECTS"
+export PKD_DIR=$(readlink --canonicalize 'does/not/exist')
+approve "$cli pkd proj ls" "ass_pkd_proj_ls_env_nonexisting"
+unset PKD_DIR
+approve "$cli pkd proj ls --pkd-dir='does/not/exist'" "ass_pkd_proj_ls_flag_nonexisting"
 
 describe "todo append"
 it "can append 'Append test'"
 
 testtodo="$(mktemp --directory --tmpdir='/tmp' 'ass_todo_append.XXXX')"
 cp test/resources/todo/* "$testtodo/."
+export TODOTXT_FILE="$testtodo/todo.txt"
+$cli todo append "Append test ENV"
+unset TODOTXT_FILE
+approve "cat $testtodo/todo.txt" "ass_todo_append_env"
 
-$cli todo append --todotxt-file "$testtodo/todo.txt" "Append test"
-approve "cat $testtodo/todo.txt" "ass_todo_append"
+cp test/resources/todo/* "$testtodo/."
+$cli todo append --todotxt-file "$testtodo/todo.txt" "Append test FLAG"
+approve "cat $testtodo/todo.txt" "ass_todo_append_flag"
+
+it "exits early if todo.txt is not writeable"
+testtodotxt="$(mktemp --tmpdir='/tmp' -- 'todo.txt.XXXX')"
+chmod -w $testtodotxt
+allow_diff '[0-9A-Za-z]{4}$'
+approve "$cli todo append --todotxt-file $testtodotxt 'Append not possible FLAG'" "ass_todo_append_flag_notwriteable"
 
 describe "todo delete"
 it "can delete the 1st entry"
@@ -54,6 +85,8 @@ cp test/resources/todo/* "$testtodo/."
 
 $cli todo delete --todotxt-file "$testtodo/todo.txt" 1
 approve "cat $testtodo/todo.txt" "ass_todo_delete_1"
+
+it "exits early if todo.txt is not writeable"
 
 it "cannot delete a line that doesn't exist"
 approve "$cli todo delete --todotxt-file /tmp/ass_todo_delete/todo.txt 10000" "ass_todo_delete_non_existent"

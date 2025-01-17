@@ -7,7 +7,7 @@ if [ "$verbosity" -ge 1 ]; then
 fi
 
 if ! [ -w "$todotxt_file" ]; then
- gum log --structured --level "error" -- "todo append: Cannot not write to" "todotxt_file" "$todotxt_file"
+ gum log --structured --level "error" -- "todo append: Cannot not write to todotxt_file" "todotxt_file" "$todotxt_file"
  exit 1
 fi
 
