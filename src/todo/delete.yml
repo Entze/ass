@@ -1,0 +1,10 @@
+name: delete
+alias: del
+help: Delete Nth entry of the todo.txt file
+args:
+  - name: n
+environment_variables:
+  - import: src/vars/todotxtfile_env.yml
+flags:
+  - import: src/vars/todotxtfile_flag.yml
+  - import: src/vars/verbose_flag.yml
