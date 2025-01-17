@@ -1,0 +1,6 @@
+long: --todotxt-file
+short: -f
+arg: file
+required: false
+validate: file_exists
+import: src/vars/todotxtfile_common.yml

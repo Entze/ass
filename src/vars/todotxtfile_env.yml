@@ -1,0 +1,4 @@
+name: TODOTXT_FILE
+default: $HOME/todo/todo.txt
+required: false
+import: src/vars/todotxtfile_common.yml

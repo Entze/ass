@@ -1,0 +1,8 @@
+ass todo - Manage todo.txt
+
+Usage:
+  ass todo COMMAND
+  ass todo [COMMAND] --help | -h
+
+Commands:
+  append   Append TEXT to the todo.txt file

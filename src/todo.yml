@@ -1,0 +1,5 @@
+name: todo
+help: Manage todo.txt
+commands:
+  - import: src/todo/append.yml
+  - import: src/todo/delete.yml

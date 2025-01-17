@@ -24,6 +24,11 @@ approve "$cli pkd proj --help"
 
 approve "$cli pkd proj list --help"
 
+approve "$cli todo"
+approve "$cli todo --help"
+
+approve "$cli todo append --help"
+
 approve "$cli --version"
 
 describe "pkd aof"

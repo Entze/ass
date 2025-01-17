@@ -1,0 +1,9 @@
+name: append
+help: Append TEXT to the todo.txt file
+args:
+  - name: text
+environment_variables:
+  - import: src/vars/todotxtfile_env.yml
+flags:
+  - import: src/vars/todotxtfile_flag.yml
+  - import: src/vars/verbose_flag.yml
