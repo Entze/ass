@@ -47,17 +47,17 @@
     {
       "attr_path": "bashly",
       "broken": false,
-      "derivation": "/nix/store/i9wax049glghahfrzmqqa57113y50qib-bashly-1.2.6.drv",
+      "derivation": "/nix/store/vdy30m5xp6x0d3fsnzl589f0pg558blk-bashly-1.2.6.drv",
       "description": "Bash command line framework and CLI generator",
       "install_id": "bashly",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "bashly-1.2.6",
       "pname": "bashly",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -67,7 +67,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/n431c2nabivqmjv6mdlx0vz51c0si7h2-bashly-1.2.6"
+        "out": "/nix/store/8h8mdsx0j9bhm7bz102cg9nkwmiz3kam-bashly-1.2.6"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -76,17 +76,17 @@
     {
       "attr_path": "bashly",
       "broken": false,
-      "derivation": "/nix/store/h5rq81f37higxrh33y62v8sm18xxrxrr-bashly-1.2.6.drv",
+      "derivation": "/nix/store/s9jsgknycy2c694p44k7z3gg9ycm84p7-bashly-1.2.6.drv",
       "description": "Bash command line framework and CLI generator",
       "install_id": "bashly",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "bashly-1.2.6",
       "pname": "bashly",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -96,7 +96,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/0r9ahrxfm10jzw9rf9a5zn1plwfinzr5-bashly-1.2.6"
+        "out": "/nix/store/fzabaz705zl3p2id58gkd04hrkvhyy58-bashly-1.2.6"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -105,17 +105,17 @@
     {
       "attr_path": "bashly",
       "broken": false,
-      "derivation": "/nix/store/k4l5rk5haqad2h8yjvjklxmqdm5r0klx-bashly-1.2.6.drv",
+      "derivation": "/nix/store/3rwwdkqss2gns5kc0m6wlmgd84xwcy4c-bashly-1.2.6.drv",
       "description": "Bash command line framework and CLI generator",
       "install_id": "bashly",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "bashly-1.2.6",
       "pname": "bashly",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -125,7 +125,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/644d2mxpj50lmwc7d30bj9j4453i5bhr-bashly-1.2.6"
+        "out": "/nix/store/c2czbd4yyfrc7nv2pln7yfgc8hinb53z-bashly-1.2.6"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -134,17 +134,17 @@
     {
       "attr_path": "bashly",
       "broken": false,
-      "derivation": "/nix/store/0z48xdkbg6fkklxi91q0lywzfsr3xwsr-bashly-1.2.6.drv",
+      "derivation": "/nix/store/bpghy8fa42dygbsnpiylbvf6x4bn9k3k-bashly-1.2.6.drv",
       "description": "Bash command line framework and CLI generator",
       "install_id": "bashly",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "bashly-1.2.6",
       "pname": "bashly",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -154,7 +154,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/3x2lz09dq5d2s1k3b2im7jjck9nm0584-bashly-1.2.6"
+        "out": "/nix/store/f7hr977bgvp1zmv4mgvbhr0blg5h8bxi-bashly-1.2.6"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -163,17 +163,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/wm2vndzq7rv5xf5nfv4rhvsi1qnjmrk7-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/df484krm1m82nxzyqfwz0saclnwfk059-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -184,9 +184,9 @@
         "man"
       ],
       "outputs": {
-        "info": "/nix/store/8677qdd03vfyb4zl9jqa1l3gf5nn42l0-gnumake-4.4.1-info",
-        "man": "/nix/store/8ndq9xqci1861y6fb97xgm90qxq3m9lj-gnumake-4.4.1-man",
-        "out": "/nix/store/kz7hhivh19j3fswz9i5knbq3xwsy7sp5-gnumake-4.4.1"
+        "info": "/nix/store/4mafcvbla79xbj2fz6i1minp5lzswxpd-gnumake-4.4.1-info",
+        "man": "/nix/store/dwxn1hp17lavlpxrgbd3pli3xrrlcwbf-gnumake-4.4.1-man",
+        "out": "/nix/store/lgwqlms7xmi8blp2859r44kjacr5zxh4-gnumake-4.4.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -195,17 +195,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/zir2qbcs5di3nph357a1g8vyjs8fy6rw-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/4v1gdn9s62c0kdz78lx4wl40dazkcv6n-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -216,10 +216,10 @@
         "man"
       ],
       "outputs": {
-        "debug": "/nix/store/gfsbcjrv2lxgipzsn3a65flqll44ihis-gnumake-4.4.1-debug",
-        "info": "/nix/store/hnkqb83x19qv9hwa8l5vkvv2y21yps32-gnumake-4.4.1-info",
-        "man": "/nix/store/rim19s0wcffh71ma2bgm0hifpr71p3dz-gnumake-4.4.1-man",
-        "out": "/nix/store/vdn3rar5zcrg0mh406h4abq3w2d12hy2-gnumake-4.4.1"
+        "debug": "/nix/store/rvl823mgrpnd086jgi3v96vh12ghkcvd-gnumake-4.4.1-debug",
+        "info": "/nix/store/spf1ilhshgxpwqaybd4wbb302al98ws4-gnumake-4.4.1-info",
+        "man": "/nix/store/ax9cdx1w6jj511q0vlhh313qf3gmvg13-gnumake-4.4.1-man",
+        "out": "/nix/store/zrsbdqh6l91d978fdavi7hvpmb2ihw99-gnumake-4.4.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -228,17 +228,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/rw7ky951qicqxr9maazhk9pbv2gr7yac-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/mfa0d1bxmycv0xfqf1wm5l5bwvxn810x-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -249,9 +249,9 @@
         "man"
       ],
       "outputs": {
-        "info": "/nix/store/a0k03x1jwp180cwppi1yqd8h535p5ck6-gnumake-4.4.1-info",
-        "man": "/nix/store/mfcp0r854jpqn1vckhycabla9mwzfsff-gnumake-4.4.1-man",
-        "out": "/nix/store/i68j153lqxkvyhflqip2lqxy9zqsf6k2-gnumake-4.4.1"
+        "info": "/nix/store/rjyq24zm3l6q0s6pv2c1aapx7mbfaz50-gnumake-4.4.1-info",
+        "man": "/nix/store/y99mf9qv9kbbxcwb9l187h3y4khhmjyc-gnumake-4.4.1-man",
+        "out": "/nix/store/85rlha3lfj2l14c9d0fz3k0crvps3baw-gnumake-4.4.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -260,17 +260,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/cps3vhvvfbk1kcwd46mzf2jn3fcgjlcm-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/h45x4lwrvipwdqm1gb8vyqclvkwgbzwf-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -281,10 +281,10 @@
         "man"
       ],
       "outputs": {
-        "debug": "/nix/store/6vzw9g0p9n5467agw5z4l68xbwpzr79x-gnumake-4.4.1-debug",
-        "info": "/nix/store/1cw85sbjpl43k7qdwhpcmz63rq0f54jc-gnumake-4.4.1-info",
-        "man": "/nix/store/4dwhf5vn36rxg6xk98qsswyhvzywqdh9-gnumake-4.4.1-man",
-        "out": "/nix/store/nmj7y4f9zkbzsb51wbnbf2yksa4ncprj-gnumake-4.4.1"
+        "debug": "/nix/store/70idd90xklk1iah6c3xyb1kgrc86hj42-gnumake-4.4.1-debug",
+        "info": "/nix/store/jxg6sn1ang81pyp3l66i8c0gncnkdhdh-gnumake-4.4.1-info",
+        "man": "/nix/store/ndg9b34ayibwwf7z0i2vajgh3kxyk43r-gnumake-4.4.1-man",
+        "out": "/nix/store/lsy9s0skv65xhprr9yhmig2c844qgi5f-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -293,17 +293,17 @@
     {
       "attr_path": "gum",
       "broken": false,
-      "derivation": "/nix/store/saqsc2cnrj5kdswscdl8f7za5pjh29f7-gum-0.14.5.drv",
+      "derivation": "/nix/store/8n0labp3m7za7azv53f6yfps5ifc0pfl-gum-0.14.5.drv",
       "description": "Tasty Bubble Gum for your shell",
       "install_id": "gum",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gum-0.14.5",
       "pname": "gum",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -313,7 +313,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/p87f1zvabjckkam5f8p5n8s0p9dy2z8d-gum-0.14.5"
+        "out": "/nix/store/8ll1vyz1qj1n551icmnr52yblf2y57yd-gum-0.14.5"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -322,17 +322,17 @@
     {
       "attr_path": "gum",
       "broken": false,
-      "derivation": "/nix/store/gq0x16il396knlmncdmljqrgxmqj5vlx-gum-0.14.5.drv",
+      "derivation": "/nix/store/7rm5j6xfgb7z552cvbdaxhvjdgg12d5r-gum-0.14.5.drv",
       "description": "Tasty Bubble Gum for your shell",
       "install_id": "gum",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gum-0.14.5",
       "pname": "gum",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -342,7 +342,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/i8ks7qinadmk77dmknnrpi4iczv8p8gj-gum-0.14.5"
+        "out": "/nix/store/grlkv28clq587zfv398cdga67yci0xp1-gum-0.14.5"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -351,17 +351,17 @@
     {
       "attr_path": "gum",
       "broken": false,
-      "derivation": "/nix/store/p9hjn7115d3ks9nd96zc5zj8wbfvm932-gum-0.14.5.drv",
+      "derivation": "/nix/store/vgsn25lfv75rnhfnwa04wx8xm68z80sv-gum-0.14.5.drv",
       "description": "Tasty Bubble Gum for your shell",
       "install_id": "gum",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gum-0.14.5",
       "pname": "gum",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -371,7 +371,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/1s4jc1kmqksngyhanl76iibb19b7sd2v-gum-0.14.5"
+        "out": "/nix/store/xig0syqgpam9vlam4zr5xka6sj0a2ss0-gum-0.14.5"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -380,17 +380,17 @@
     {
       "attr_path": "gum",
       "broken": false,
-      "derivation": "/nix/store/xbrn20zfhm8w5cgjjzjcyv67g5k6kbdl-gum-0.14.5.drv",
+      "derivation": "/nix/store/pbahvb6vvamnr3c4jba3hf6myawcdxyp-gum-0.14.5.drv",
       "description": "Tasty Bubble Gum for your shell",
       "install_id": "gum",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "gum-0.14.5",
       "pname": "gum",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -400,7 +400,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/z96hiw9h45mph9qilm4hp4j4ncf19qbl-gum-0.14.5"
+        "out": "/nix/store/y5m3h1r4zsgxy95g41cif5lxnnml1pkp-gum-0.14.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -409,17 +409,17 @@
     {
       "attr_path": "just",
       "broken": false,
-      "derivation": "/nix/store/45d9w0p3c206mdrymlk9rrhl7rra5cy8-just-1.38.0.drv",
+      "derivation": "/nix/store/2ckpdl5sllflgm434rzmbn1cy3qllaxk-just-1.38.0.drv",
       "description": "Handy way to save and run project-specific commands",
       "install_id": "just",
       "license": "CC0-1.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "just-1.38.0",
       "pname": "just",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -430,9 +430,9 @@
         "man"
       ],
       "outputs": {
-        "doc": "/nix/store/ys7i8a3y8x0wpvpgjm1cg32vcmkvghaq-just-1.38.0-doc",
-        "man": "/nix/store/4v2f2ilb558wldh4wl5iplhbqbwcs8x7-just-1.38.0-man",
-        "out": "/nix/store/vsh8l0h4w2s2chhxnq3crggnqgajv8fr-just-1.38.0"
+        "doc": "/nix/store/xyad34p9y594s9jvria8mjn62arzr7m9-just-1.38.0-doc",
+        "man": "/nix/store/af1f28dhcr6rbsbwl6hmq8nn49ff427d-just-1.38.0-man",
+        "out": "/nix/store/n8sm1rfnrph6jla4i3nx7mkhswgx02vf-just-1.38.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -441,17 +441,17 @@
     {
       "attr_path": "just",
       "broken": false,
-      "derivation": "/nix/store/vqz0fxiv5r4pvfkvf1l1bqz2xc3kicfr-just-1.38.0.drv",
+      "derivation": "/nix/store/yg42d2ribidmsf6g7bwnw227mdb7pv6w-just-1.38.0.drv",
       "description": "Handy way to save and run project-specific commands",
       "install_id": "just",
       "license": "CC0-1.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "just-1.38.0",
       "pname": "just",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -462,9 +462,9 @@
         "man"
       ],
       "outputs": {
-        "doc": "/nix/store/wdvhp7n1ll2r94bp1wq0nw9d7jsy9h5r-just-1.38.0-doc",
-        "man": "/nix/store/b402yzxcpdldqafh9lh1vz10pifyyrm1-just-1.38.0-man",
-        "out": "/nix/store/v9c5rvb1f5351vnfqw1dwrqnyr0zmwkl-just-1.38.0"
+        "doc": "/nix/store/97b06v3cql0f34x8hxs2mp9c4spmp6mp-just-1.38.0-doc",
+        "man": "/nix/store/lpqpizw5yrbw3vmf3a0jbqs65114ixk1-just-1.38.0-man",
+        "out": "/nix/store/ns136v5wws9nsm4a2jq1k91q4lp9glai-just-1.38.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -473,17 +473,17 @@
     {
       "attr_path": "just",
       "broken": false,
-      "derivation": "/nix/store/9db93z9yzr862q61vjyq5r0mx74jirwr-just-1.38.0.drv",
+      "derivation": "/nix/store/95m6ha1dk0a7ayyg1zghhgvqpxw8k3n1-just-1.38.0.drv",
       "description": "Handy way to save and run project-specific commands",
       "install_id": "just",
       "license": "CC0-1.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "just-1.38.0",
       "pname": "just",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -494,9 +494,9 @@
         "man"
       ],
       "outputs": {
-        "doc": "/nix/store/1z00n6g7id3z5x4wgmxnpp0www1r9ah6-just-1.38.0-doc",
-        "man": "/nix/store/g72x3fkmf25sa8gc3sh17wm2s14vk1zi-just-1.38.0-man",
-        "out": "/nix/store/nrwx6y35zjj83shb7vj6nxl5a7ll7jfq-just-1.38.0"
+        "doc": "/nix/store/q7azhbcajjnnbkv7vppd801qymwnpzv0-just-1.38.0-doc",
+        "man": "/nix/store/x5152cb3wy0s9dpbk8573rnjv7ni9z4n-just-1.38.0-man",
+        "out": "/nix/store/b2ny7whdq0w3h0p1prglmjl7p3smy856-just-1.38.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -505,17 +505,17 @@
     {
       "attr_path": "just",
       "broken": false,
-      "derivation": "/nix/store/b2b4gdys6f07896qj4b5npjl0m2pmkzh-just-1.38.0.drv",
+      "derivation": "/nix/store/c0zc2fgpifxsr2qp5hd4j541dsmr897g-just-1.38.0.drv",
       "description": "Handy way to save and run project-specific commands",
       "install_id": "just",
       "license": "CC0-1.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "just-1.38.0",
       "pname": "just",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -526,9 +526,9 @@
         "man"
       ],
       "outputs": {
-        "doc": "/nix/store/lxn266hlm8ngl6r0bkz9bdc2g5iskqby-just-1.38.0-doc",
-        "man": "/nix/store/kh82ps1zp22cv36l4w1r7pzv1rbzpmjz-just-1.38.0-man",
-        "out": "/nix/store/8gfn54vq7r96i0jpdgbz4084b4n5if61-just-1.38.0"
+        "doc": "/nix/store/kfnz1csa7yj6yrzi9rbh7yy629j9gns5-just-1.38.0-doc",
+        "man": "/nix/store/gfjgll67z6slm5ldyy8c8x330f24icwp-just-1.38.0-man",
+        "out": "/nix/store/kw7flxw5g779g1g5c6ri0pf4nfbyh5wd-just-1.38.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -537,17 +537,17 @@
     {
       "attr_path": "shellcheck",
       "broken": false,
-      "derivation": "/nix/store/54x1d4pllfylv4ml54242za7h3j6ms5w-shellcheck-0.10.0.drv",
+      "derivation": "/nix/store/ns3m8mzadbclyl0x32wg9gdvszxf7k3y-shellcheck-0.10.0.drv",
       "description": "Shell script analysis tool",
       "install_id": "shellcheck",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "shellcheck-0.10.0",
       "pname": "shellcheck",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -559,10 +559,10 @@
         "doc"
       ],
       "outputs": {
-        "bin": "/nix/store/n2n09kxq2d077jfl4lsfdky68mfqljsp-shellcheck-0.10.0-bin",
-        "doc": "/nix/store/qx18mj9h0h3yzzn9671ycv8i5f34wnfj-shellcheck-0.10.0-doc",
-        "man": "/nix/store/2ffg4iskkjnqwspj5cnyc9r5fi5crqpi-shellcheck-0.10.0-man",
-        "out": "/nix/store/rrq5w2sg6l23v4adqqzvhajl0hm6fij9-shellcheck-0.10.0"
+        "bin": "/nix/store/3dxs66z95mafvn1dsqhg4f0zlz8b4cqv-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/y1jpdlkaxxsgj6xikq1zlw81mdn3la43-shellcheck-0.10.0-doc",
+        "man": "/nix/store/jvv73bnrkjyq2c615i0ck9svl6pf0k2g-shellcheck-0.10.0-man",
+        "out": "/nix/store/9gd0zysiiq4m4mxxvnxr73ic2h99a7a1-shellcheck-0.10.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -571,17 +571,17 @@
     {
       "attr_path": "shellcheck",
       "broken": false,
-      "derivation": "/nix/store/cx2iwb9y8b7gjcnpy3r9fid0hnzp0bwa-shellcheck-0.10.0.drv",
+      "derivation": "/nix/store/lf5angdqlly1s5sq2r6063h53z74zxsi-shellcheck-0.10.0.drv",
       "description": "Shell script analysis tool",
       "install_id": "shellcheck",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "shellcheck-0.10.0",
       "pname": "shellcheck",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -593,10 +593,10 @@
         "doc"
       ],
       "outputs": {
-        "bin": "/nix/store/d9pyyl4zz5vhdd1ja1rij8rvx4g2zr0q-shellcheck-0.10.0-bin",
-        "doc": "/nix/store/ylrpz2sqh1fd4c1gc5qpqfaijzb4qcf8-shellcheck-0.10.0-doc",
-        "man": "/nix/store/cyc84gzdk9jgnim7vhlkj2jyrzy3f6l0-shellcheck-0.10.0-man",
-        "out": "/nix/store/b1dsjs45mfsv84lh7j7vvy9hii1m3irr-shellcheck-0.10.0"
+        "bin": "/nix/store/pp14gcfz5kgzlmxkjyb0s3dxb7kkz3ip-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/5m7p5y631k6972i7caii9y6pkvqp6rmx-shellcheck-0.10.0-doc",
+        "man": "/nix/store/md7b3jwq12xir40q745ym8jygsayybc0-shellcheck-0.10.0-man",
+        "out": "/nix/store/ggfpagl406bgsyqdq44x15mz1y50rbfz-shellcheck-0.10.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -605,17 +605,17 @@
     {
       "attr_path": "shellcheck",
       "broken": false,
-      "derivation": "/nix/store/lk92xjnxcfbdv682sqb3gal7wbmfarsy-shellcheck-0.10.0.drv",
+      "derivation": "/nix/store/iz85qla7bwnll1xmg2cwg3zanxllgrsl-shellcheck-0.10.0.drv",
       "description": "Shell script analysis tool",
       "install_id": "shellcheck",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "shellcheck-0.10.0",
       "pname": "shellcheck",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -627,10 +627,10 @@
         "doc"
       ],
       "outputs": {
-        "bin": "/nix/store/l00pkvfjax8rs8if17ygwhaaw1279rx1-shellcheck-0.10.0-bin",
-        "doc": "/nix/store/pzjhf3vkqgv8vss9z96mgrca53njyq3y-shellcheck-0.10.0-doc",
-        "man": "/nix/store/xqcbch1l3h8wn9h154a02w34cyl6b7bi-shellcheck-0.10.0-man",
-        "out": "/nix/store/fwj1zqqmikw8l625q5s5spy1jqx29dyr-shellcheck-0.10.0"
+        "bin": "/nix/store/2wfg86v5m65843ac5ndxh49lkgz0ra62-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/169a6625l5jwkkm4kmdsn9jwh7g6r5xi-shellcheck-0.10.0-doc",
+        "man": "/nix/store/j0ac5q3f8amcjlv7mpnarpc489kcmwch-shellcheck-0.10.0-man",
+        "out": "/nix/store/qvwdimh65m17vim2pyasv35vnxa4xngp-shellcheck-0.10.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -639,17 +639,17 @@
     {
       "attr_path": "shellcheck",
       "broken": false,
-      "derivation": "/nix/store/knc8hckj9vbgr2i6pz35ah2fr8pc7az5-shellcheck-0.10.0.drv",
+      "derivation": "/nix/store/jmvz2kiliw9rcd5rvzg2qr0mjif579rs-shellcheck-0.10.0.drv",
       "description": "Shell script analysis tool",
       "install_id": "shellcheck",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "shellcheck-0.10.0",
       "pname": "shellcheck",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -661,10 +661,10 @@
         "doc"
       ],
       "outputs": {
-        "bin": "/nix/store/g6fx0dy7203d6b9mcm366wqjlvgjk4bg-shellcheck-0.10.0-bin",
-        "doc": "/nix/store/blxfb83f55nwpyad301pdxddadid5x6s-shellcheck-0.10.0-doc",
-        "man": "/nix/store/b6df9qlddfzy8a6aqcnyysdpja2cd1mv-shellcheck-0.10.0-man",
-        "out": "/nix/store/6qxij2ij5b5hisqhyssdx019slgkqpnn-shellcheck-0.10.0"
+        "bin": "/nix/store/d578igb56crc28zrx914mqxbc88djhk5-shellcheck-0.10.0-bin",
+        "doc": "/nix/store/qsis93k3w3aa092v94jk0d7sykfch2li-shellcheck-0.10.0-doc",
+        "man": "/nix/store/dz7qklqp1cbjpjcnghwd347z9fc5wmyz-shellcheck-0.10.0-man",
+        "out": "/nix/store/izcpyz4chn72321vxi0g4m2cfk8a4m28-shellcheck-0.10.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -673,17 +673,17 @@
     {
       "attr_path": "yamllint",
       "broken": false,
-      "derivation": "/nix/store/yzpl0mm35fm53bnbgjxy8hq4mlpfsm6v-python3.12-yamllint-1.35.1.drv",
+      "derivation": "/nix/store/klknmwlf3fxx095ddnrydbyv7ygcl953-python3.12-yamllint-1.35.1.drv",
       "description": "Linter for YAML files",
       "install_id": "yamllint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "python3.12-yamllint-1.35.1",
       "pname": "yamllint",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -693,8 +693,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/0h54cmwyz2d6axldh6894dj8hwavyarc-python3.12-yamllint-1.35.1-dist",
-        "out": "/nix/store/f119sg47lh576bj7s83rmfdphwjxykkq-python3.12-yamllint-1.35.1"
+        "dist": "/nix/store/22vzn06fx5yzgfn80ka77fj0hy45nb23-python3.12-yamllint-1.35.1-dist",
+        "out": "/nix/store/jlcrw184bxcbqcs6igjwal55425xxcm9-python3.12-yamllint-1.35.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -703,17 +703,17 @@
     {
       "attr_path": "yamllint",
       "broken": false,
-      "derivation": "/nix/store/ggnl3s50cxqkppdhfrkk4l0qznp7pshl-python3.12-yamllint-1.35.1.drv",
+      "derivation": "/nix/store/p6zz7jvcz6vm488pz2nsc3z5qvlv30f2-python3.12-yamllint-1.35.1.drv",
       "description": "Linter for YAML files",
       "install_id": "yamllint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "python3.12-yamllint-1.35.1",
       "pname": "yamllint",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -723,8 +723,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/3kiidcnnizy76d8hly4nmwjwig597wwk-python3.12-yamllint-1.35.1-dist",
-        "out": "/nix/store/3zgl49ap4wlg6h9g5r9m8lhwys8v566q-python3.12-yamllint-1.35.1"
+        "dist": "/nix/store/wqc08x7gsly5imchhifp079q8sgrpc5a-python3.12-yamllint-1.35.1-dist",
+        "out": "/nix/store/6vzl6v6m6wrlv78xpw4bq38hidkcvscv-python3.12-yamllint-1.35.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -733,17 +733,17 @@
     {
       "attr_path": "yamllint",
       "broken": false,
-      "derivation": "/nix/store/pgjrhwxq3c8h8f0rw1cl6m0fhi0firvm-python3.12-yamllint-1.35.1.drv",
+      "derivation": "/nix/store/whh0jsg9xby74dbkxhav6i3fvmfnsz35-python3.12-yamllint-1.35.1.drv",
       "description": "Linter for YAML files",
       "install_id": "yamllint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "python3.12-yamllint-1.35.1",
       "pname": "yamllint",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -753,8 +753,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/xf8h6cs767i3yw417sivr8sy27jpszrl-python3.12-yamllint-1.35.1-dist",
-        "out": "/nix/store/jx6wrsl5scdggdq9j79vdr4pygirp7c3-python3.12-yamllint-1.35.1"
+        "dist": "/nix/store/6jlj9r9jazvd9hnp9m6l3p4r9d1bihgm-python3.12-yamllint-1.35.1-dist",
+        "out": "/nix/store/6idgrdfw4v396r10xj1wfj303ngxvq4d-python3.12-yamllint-1.35.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -763,17 +763,17 @@
     {
       "attr_path": "yamllint",
       "broken": false,
-      "derivation": "/nix/store/fqfd4g1744dyhxzwbj1n8ydxcap9f2ls-python3.12-yamllint-1.35.1.drv",
+      "derivation": "/nix/store/44i9rzddpcbcnzzlzmc0rv59nyy2amdj-python3.12-yamllint-1.35.1.drv",
       "description": "Linter for YAML files",
       "install_id": "yamllint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=130595eba61081acde9001f43de3248d8888ac4a",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
       "name": "python3.12-yamllint-1.35.1",
       "pname": "yamllint",
-      "rev": "130595eba61081acde9001f43de3248d8888ac4a",
-      "rev_count": 736170,
-      "rev_date": "2025-01-10T15:43:18Z",
-      "scrape_date": "2025-01-13T03:35:32Z",
+      "rev": "9e4d5190a9482a1fb9d18adf0bdb83c6e506eaab",
+      "rev_count": 742084,
+      "rev_date": "2025-01-21T14:28:11Z",
+      "scrape_date": "2025-01-23T00:15:48Z",
       "stabilities": [
         "unstable"
       ],
@@ -783,8 +783,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/jrcv8wi52hb9rv84c01hayvjz2kfiwpf-python3.12-yamllint-1.35.1-dist",
-        "out": "/nix/store/67dhdiaxkryhr9bwyg7lfpmljcghvjwb-python3.12-yamllint-1.35.1"
+        "dist": "/nix/store/s04aw0g043zlpn6dwvfbgd8jaa22idgx-python3.12-yamllint-1.35.1-dist",
+        "out": "/nix/store/cz1y92gzhb2ldxz8jhfmfg84r99v15z1-python3.12-yamllint-1.35.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
