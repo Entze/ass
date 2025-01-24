@@ -5,8 +5,9 @@ Usage:
   ass todo [COMMAND] --help | -h
 
 Commands:
-  append   Append TEXT to the todo.txt file
-  delete   Delete Nth entry of the todo.txt file
+  append      Append TEXT to the todo.txt file
+  delete      Delete Nth entry of the todo.txt file
+  get-field   Get the FIELD of the entries in RANGE in the todo.txt file
 
 Options:
   --help, -h
