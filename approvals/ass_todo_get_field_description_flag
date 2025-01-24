@@ -1,0 +1,18 @@
+Clarify with @agenda.wilkinson.s when to bring the dry-cleaner aof:home
+@call.012345 electrician about garage lighting +clean-garage @home due:1970-01-05 aof:home
+Research new fridge models +discombobulate-refrigerator @computer due:1970-01-10 aof:home
+Take out trash +clean-garage @home
+Buy cleaning supplies +clean-garage @errands t:1970-01-06 aof:home
+Schedule fridge maintenance +discombobulate-refrigerator @phone
+Clarify with @agenda.smith.j when to finish the report aof:work-01 due:1970-01-07
+Draft project proposal +work-presentation @computer due:1970-01-12 aof:work-01
+Follow up with @agenda.smith.j on report +team-update due:1970-01-08 aof:work-01
+Plan weekend hike +fitness-goals @home t:1970-01-10 aof:hobby
+Send invoice to client +freelance-project @computer
+Organize bookshelf +home-improvement @home aof:home
+Buy birthday gift for Sarah +family-events @errands due:1970-01-15 aof:home
+Email contractor about repairs +home-repairs @computer due:1970-01-13 aof:home
+@call.7777 to confirm dinner reservation +social-plans
+Review team feedback +work-presentation @waiting.musterfrau.m due:1970-01-16 aof:work-01
+Backup important files +digital-maintenance @computer t:1970-01-20 aof:home
+Clean out car +car-maintenance @home due:1970-01-22 aof:home

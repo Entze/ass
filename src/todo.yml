@@ -3,3 +3,4 @@ help: Manage todo.txt
 commands:
   - import: src/todo/append.yml
   - import: src/todo/delete.yml
+  - import: src/todo/get-field.yml
