@@ -11,3 +11,4 @@ flags:
 dependencies:
   - gum
   - fdfind
+  - printf

@@ -8,3 +8,8 @@ environment_variables:
 flags:
   - import: src/vars/todotxtfile_flag.yml
   - import: src/vars/verbose_flag.yml
+dependencies:
+  - gum
+  - wc
+  - rg
+  - sed
