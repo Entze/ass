@@ -1,0 +1,16 @@
+name: get-tag
+help: Get the value for the TAG of the entries in RANGE in the todo.txt file
+args:
+  - name: tag
+    required: true
+    help: Identifier of the requested tag
+environment_variables:
+  - import: src/vars/todotxtfile_env.yml
+flags:
+  - import: src/vars/todotxtfile_flag.yml
+  - import: src/vars/verbose_flag.yml
+dependencies:
+  - gum
+  - printf
+  - sed
+  - bat
