@@ -11,14 +11,14 @@ if ! [ -w "$todotxt_file" ]; then
  exit 1
 fi
 
-len="$(wc -l $todotxt_file | rg --only-matching "^[0-9]+")"
+length="$(wc --lines $todotxt_file | rg --only-matching "^[0-9]+")"
 if [ "$verbosity" -ge 1 ]; then
-  gum log --structured --level "debug" -- "todo delete: Checking length of todo.txt" "len" "$len"
+  gum log --structured --level "debug" -- "todo delete: Checking length of todo.txt" "length" "$length"
 fi
 
 
-if [ "$len" -lt "$entry" ]; then
-  gum log --structured --level "warn" -- "todo delete: Cannot delete entry" "entry" "$entry" "len" "$len"
+if [ "$length" -lt "$entry" ]; then
+  gum log --structured --level "warn" -- "todo delete: Cannot delete entry" "entry" "$entry" "length" "$length"
 fi
 
 

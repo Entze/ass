@@ -1,0 +1,19 @@
+Clarify with @context when to bring the dry-cleaner aof:home
+(A) 1970-01-01 @context electrician about garage lighting +clean-garage @home due:1970-01-05 aof:home
+(B) 1970-01-02 Research new fridge models +discombobulate-refrigerator @context due:1970-01-10 aof:home
+x 1970-01-03 1970-01-02 Take out trash +clean-garage @context
+(C) 1970-01-04 Buy cleaning supplies +clean-garage @context t:1970-01-06 aof:home
+x 1970-01-05 1970-01-04 Schedule fridge maintenance +discombobulate-refrigerator @context
+(A) Clarify with @context when to finish the report aof:work-01 due:1970-01-07
+1970-01-06 Draft project proposal +work-presentation @context due:1970-01-12 aof:work-01
+(A) 1970-01-07 Follow up with @context on report +team-update due:1970-01-08 aof:work-01
+(B) 1970-01-08 Plan weekend hike +fitness-goals @context t:1970-01-10 aof:hobby
+x 1970-01-09 1970-01-08 Send invoice to client +freelance-project @context
+(C) 1970-01-10 Organize bookshelf +home-improvement @context aof:home
+1970-01-11 Buy birthday gift for Sarah +family-events @context due:1970-01-15 aof:home
+(A) 1970-01-12 Email contractor about repairs +home-repairs @context due:1970-01-13 aof:home
+x 1970-01-13 1970-01-12 @context to confirm dinner reservation +social-plans
+x 1970-03-03 Throw out old books +home-improvement @context aof:home
+(B) 1970-01-14 Review team feedback +work-presentation @context due:1970-01-16 aof:work-01
+1970-01-15 Backup important files +digital-maintenance @context t:1970-01-20 aof:home
+(C) 1970-01-16 Clean out car +car-maintenance @context due:1970-01-22 aof:home

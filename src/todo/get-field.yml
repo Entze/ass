@@ -2,12 +2,19 @@ name: get-field
 help: Get the FIELD of the entries in RANGE in the todo.txt file
 args:
   - name: field
-    allowed: [completion, priority, completion-date, creation-date, description, project, context]
+    allowed:
+      - completion
+      - priority
+      - completion-date
+      - creation-date
+      - description
+      - project
+      - context
     required: true
     help: Identifier of the requested field
   - name: range
     repeatable: true
-    default: "1:"
+    default: '1:'
     help: One or more RANGEs of entries to display
 environment_variables:
   - import: src/vars/todotxtfile_env.yml
@@ -19,6 +26,3 @@ dependencies:
   - printf
   - sed
   - bat
-  
-  
-    

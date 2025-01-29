@@ -1,0 +1,19 @@
+Clarify with @agenda.wilkinson.s when to bring the dry-cleaner aof:home +alt-project
+(A) 1970-01-01 @call.012345 electrician about garage lighting +alt-project @home due:1970-01-05 aof:home
+(B) 1970-01-02 Research new fridge models +alt-project @computer due:1970-01-10 aof:home
+x 1970-01-03 1970-01-02 Take out trash +alt-project @home
+(C) 1970-01-04 Buy cleaning supplies +alt-project @errands t:1970-01-06 aof:home
+x 1970-01-05 1970-01-04 Schedule fridge maintenance +alt-project @phone
+(A) Clarify with @agenda.smith.j when to finish the report aof:work-01 due:1970-01-07 +alt-project
+1970-01-06 Draft project proposal +alt-project @computer due:1970-01-12 aof:work-01
+(A) 1970-01-07 Follow up with @agenda.smith.j on report +alt-project due:1970-01-08 aof:work-01
+(B) 1970-01-08 Plan weekend hike +alt-project @home t:1970-01-10 aof:hobby
+x 1970-01-09 1970-01-08 Send invoice to client +alt-project @computer
+(C) 1970-01-10 Organize bookshelf +alt-project @home aof:home
+1970-01-11 Buy birthday gift for Sarah +alt-project @errands due:1970-01-15 aof:home
+(A) 1970-01-12 Email contractor about repairs +alt-project @computer due:1970-01-13 aof:home
+x 1970-01-13 1970-01-12 @call.7777 to confirm dinner reservation +alt-project
+x 1970-03-03 Throw out old books +alt-project @home aof:home
+(B) 1970-01-14 Review team feedback +alt-project @waiting.musterfrau.m due:1970-01-16 aof:work-01
+1970-01-15 Backup important files +alt-project @computer t:1970-01-20 aof:home
+(C) 1970-01-16 Clean out car +alt-project @home due:1970-01-22 aof:home

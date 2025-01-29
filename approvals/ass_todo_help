@@ -9,6 +9,7 @@ Commands:
   delete      Delete Nth entry of the todo.txt file
   get-field   Get the FIELD of the entries in RANGE in the todo.txt file
   get-tag     Get the value for the TAG of the entries in RANGE in the todo.txt file
+  put-field   Put VALUE into FIELD of the entries in RANGE in the todo.txt file
 
 Options:
   --help, -h

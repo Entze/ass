@@ -5,3 +5,4 @@ commands:
   - import: src/todo/delete.yml
   - import: src/todo/get-field.yml
   - import: src/todo/get-tag.yml
+  - import: src/todo/put-field.yml

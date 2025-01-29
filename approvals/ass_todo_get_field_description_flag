@@ -13,6 +13,7 @@ Organize bookshelf +home-improvement @home aof:home
 Buy birthday gift for Sarah +family-events @errands due:1970-01-15 aof:home
 Email contractor about repairs +home-repairs @computer due:1970-01-13 aof:home
 @call.7777 to confirm dinner reservation +social-plans
+Throw out old books +home-improvement @home aof:home
 Review team feedback +work-presentation @waiting.musterfrau.m due:1970-01-16 aof:work-01
 Backup important files +digital-maintenance @computer t:1970-01-20 aof:home
 Clean out car +car-maintenance @home due:1970-01-22 aof:home
