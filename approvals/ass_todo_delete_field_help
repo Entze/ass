@@ -1,0 +1,29 @@
+ass todo delete-field - Delete FIELD of the entries in RANGE in the todo.txt file
+
+Usage:
+  ass todo delete-field FIELD [RANGE...] [OPTIONS]
+  ass todo delete-field --help | -h
+
+Options:
+  --todotxt-file, -f FILE
+    The location of the todo.txt file
+
+  --verbose, -v (repeatable)
+    Set the verbosity level
+
+  --help, -h
+    Show this help
+
+Arguments:
+  FIELD
+    Identifier of the requested field
+    Allowed: completion, priority, completion-date, creation-date, description, project, context
+
+  RANGE...
+    One or more RANGEs of entries to display
+    Default: 1:
+
+Environment Variables:
+  TODOTXT_FILE
+    The location of the todo.txt file
+    Default: /home/lgrassauer/todo/todo.txt

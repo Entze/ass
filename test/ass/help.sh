@@ -28,5 +28,7 @@ approve "$cli todo put-field --help"
 
 approve "$cli todo put-tag --help"
 
+approve "$cli todo delete-field --help"
+
 approve "$cli --version"
 

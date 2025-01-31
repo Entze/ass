@@ -6,3 +6,5 @@ commands:
   - import: src/todo/get-field.yml
   - import: src/todo/get-tag.yml
   - import: src/todo/put-field.yml
+  - import: src/todo/put-tag.yml
+  - import: src/todo/delete-field.yml

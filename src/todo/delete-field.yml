@@ -1,0 +1,30 @@
+name: delete-field
+help: Delete FIELD of the entries in RANGE in the todo.txt file
+args:
+  - name: field
+    allowed:
+      - completion
+      - priority
+      - completion-date
+      - creation-date
+      - description
+      - project
+      - context
+    required: true
+    help: Identifier of the requested field
+  - name: range
+    repeatable: true
+    default: '1:'
+    help: One or more RANGEs of entries to display
+environment_variables:
+  - import: src/vars/todotxtfile_env.yml
+flags:
+  - import: src/vars/todotxtfile_flag.yml
+  - import: src/vars/verbose_flag.yml
+dependencies:
+  - gum
+  - printf
+  - wc
+  - rg
+  - sed
+  - bat
