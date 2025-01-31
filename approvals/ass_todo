@@ -10,3 +10,4 @@ Commands:
   get-field   Get the FIELD of the entries in RANGE in the todo.txt file
   get-tag     Get the value for the TAG of the entries in RANGE in the todo.txt file
   put-field   Put VALUE into FIELD of the entries in RANGE in the todo.txt file
+  put-tag     Put KEY:VALUE to the entries in RANGE in the todo.txt file
